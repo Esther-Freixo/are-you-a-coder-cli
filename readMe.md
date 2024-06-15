@@ -9,6 +9,18 @@ A fun and interactive CLI quiz game to test your coding knowledge. Answer the qu
 - Includes questions on front-end, back-end, SQL, and SOLID principles
 - Instant feedback on answers with a spinner animation
 
+## Usage
+
+You can run the quiz using either of the following methods:
+
+### Using NPX
+
+You can run it directly with npx:
+
+```sh
+npx are-you-a-coder-cli@1.0.0
+```
+
 ## Installation
 
 To install and run this CLI tool, you need to have Node.js and npm installed on your machine. Then follow these steps:
@@ -31,28 +43,32 @@ To install and run this CLI tool, you need to have Node.js and npm installed on 
     npm install
     ```
 
-## Usage
-
-You can run the quiz using either of the following methods:
-
-### Using Node
-
+Start application
 ```sh
 node .
+```
 
-Using NPX
-You can run it directly with npx:
-
-   ```sh
-    npx are-you-a-coder-cli@1.0.0
-    ```
-Contributing
+### Contributing
 If you would like to contribute to this project, please follow these steps:
 
 Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes and commit them (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
+
+Create a new branch:
+
+```sh
+git checkout -b feature-branch
+```
+
+Make your changes and commit them:
+
+```sh
+git commit -m 'Add new feature'
+```
+Push to the branch:
+```sh
+git push origin feature-branch
+```
 Create a new Pull Request.
+
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
