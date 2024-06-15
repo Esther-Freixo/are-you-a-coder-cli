@@ -18,7 +18,7 @@ You can run the quiz using either of the following methods:
 You can run it directly with npx:
 
 ```sh
-npx are-you-a-coder-cli@1.0.1
+npx are-you-a-coder-cli@1.0.2
 ```
 
 ## Installation
